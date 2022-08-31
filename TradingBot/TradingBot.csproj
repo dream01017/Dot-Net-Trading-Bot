@@ -1,0 +1,109 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Binance.Net">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Binance.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="CryptoExchange.Net">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\CryptoExchange.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Kucoin.Net">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Kucoin.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.SystemEvents">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\NLog.dll</HintPath>
+    </Reference>
+	  <PackageReference Include="NLog.Web.AspNetCore" Version="4.5.4" />
+	  <PackageReference Include="NLog" Version="4.5.4" />
+	  <Reference Include="NLog.Extensions.Logging">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="SolBo.Agent">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\SolBo.Agent.dll</HintPath>
+    </Reference>
+    <Reference Include="SolBo.Shared">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Shared\bin\Debug\netcoreapp3.1\SolBo.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.ProtectedData">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Extensions">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocket4Net">
+      <HintPath>E:\workspace\4\OnGoingWorkspace\SolBo-master\SolBo\SolBo.Agent\bin\Debug\netcoreapp3.1\WebSocket4Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

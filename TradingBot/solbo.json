@@ -1,0 +1,27 @@
+{
+  "Strategy": {
+    "ActiveId": 1,
+    "ModeType": 0,
+    "Available": [
+      {
+        "Id": 1,
+        "Symbol": "BTC-USDT",
+        "BuyDown": 0.01,
+        "SellUp": 0.01,
+        "Average": 3,
+        "StopLossDown": 12,
+        "FundPercentage": 90,
+        "ClearOnStartup": false,
+        "StopLossPauseCycles": 3,
+        "AverageType": 1,
+        "SellType": 1,
+        "CommissionType": 1
+      }
+    ]
+  },
+  "Actions": {
+    "BoughtPrice": 0,
+    "StopLossCurrentCycle": 0,
+    "StopLossReached": false
+  }
+}
